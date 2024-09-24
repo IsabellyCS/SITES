@@ -1,0 +1,102 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #1D0F6E;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 35px;
+
+}
+body {
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 500;
+    width: 800px;
+    margin-bottom: 200px;
+    color: white;
+}
+h2 {
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
+h3 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    margin: 45px;
+    color: #1D0F6E;
+}
+h4 {
+    text-align: center;
+    font-size: 35px;
+}
+h6 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 500;
+    margin: 100px;
+    color: #1D0F6E;
+} 
+p {
+    margin: 5px 5px;
+    text-align: center;
+    font-size: 25px;
+}
+main {
+    background-image: url(img/aviao.png);
+    height: 788px;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.lugares {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin: 25px;
+}
+.lugar img {
+    height: 680px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.lugar {
+    border: 4px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.preco {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+footer {
+    background-color: #1D0F6E;
+    padding: 25px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+h5 {
+    font-size: 45px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
