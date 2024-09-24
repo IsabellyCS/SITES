@@ -1,0 +1,24 @@
+header {
+    background-color: #648769;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+header img {
+    height: 150px;
+    width: 175px;
+}
+.elementos {
+    display: flex;
+    flex-direction: row;
+}
+p {
+    font-size: 15px;
+}
+footer {
+    background-color: #648769;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
