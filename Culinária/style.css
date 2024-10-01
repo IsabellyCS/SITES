@@ -31,8 +31,13 @@ header img {
 main {
     margin: 0;
     padding: 0;
-    width: 100%;
     text-align: center;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+}
+main img{
+    align-content: stretch;
 }
 h1 {
     color: #ECA457;
